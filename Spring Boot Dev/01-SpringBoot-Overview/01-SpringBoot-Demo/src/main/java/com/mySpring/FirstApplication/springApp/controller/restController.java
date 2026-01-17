@@ -10,4 +10,11 @@ public class restController {
     public String sayHello(){
         return "Hello World";
     }
+
+    //A new end point
+    @GetMapping("/workout")
+    public String doWorkout(){
+        return "Uff tired after a tough leg day!!";
+    }
+
 }
