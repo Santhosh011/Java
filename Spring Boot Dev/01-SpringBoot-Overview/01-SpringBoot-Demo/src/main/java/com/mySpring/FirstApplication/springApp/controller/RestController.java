@@ -2,10 +2,9 @@ package com.mySpring.FirstApplication.springApp.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class restController {
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
 
     //Get the value from property
     @Value("${coach.name}")
